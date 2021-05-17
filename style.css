@@ -1,0 +1,192 @@
+html{
+	scroll-behavior: smooth;
+}
+
+body{
+	background-image: url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUSEhMVFRUXFxUXFxcXFRUVFRUXFRUXFxUVFRUYHSggGBolHRUXITEhJSkrLi4uFx8zODMtNygtLisBCgoKBQUFDgUFDisZExkrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrKysrK//AABEIAJ4BPwMBIgACEQEDEQH/xAAZAAEBAQEBAQAAAAAAAAAAAAACAQADBAf/xAAiEAEBAQEAAgIDAAMBAAAAAAAAAQIREiEDMUFRYXGB4RP/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A+KxeIoJViKBSr0FBaWfQQuAX2WXPns7YBCXFkBcFMjk4CyknCkBcw5n/AEuc+jmQC54046UZICXI+LpNNn+g8+3Pr07jhrIClXK0HMdlaOtAnR0vRoDYvGboJGo1gXjJ1pQXrUV8gHhQfJOgbN1gVJFiwE41a1ugyxZGkBoviUi9Bsx0zExCsBOOnEhZAvEsZTMdJQXKrIsBksORtQHK1unRmQD5I5ad9uG5/wAAJApycG0HNNH0NgNGkNBqFPo6AVSVgXjRKkoLWKJYA8WQrfQygnCiEDSqLQGq5bhA0yuI0WUFkKfQ2kBZhwcU5QU8wCzQdYUjlKeNA6Qs8CRQPv6SpY2Qa1JfwWvYwB1HLcejVc9g8+g07bn4c/EHKjXTX0PfQNYFjXaWgPR3WzE0AL5MgN1Y0LILKur6TNidAYNp1rQaNxovAbjMlgGUoy+hlB1lLVcsH0G4sWxpALLpOBnJQDkLIeS5oO0h8c+r5g2tFmjwpAdOpmpqpO/gHVztK9GQGgadZmtug8/iPp105aBxsc9PRpx1AcqnD43iDjUkOxrkHOxHS5TgDxYvi0gNV6niWcQEuXPTrvjn4gsVCyA8LxK5bINfoZn9F0pqAk9FF8R8QK6aVbBB0zspXGOuQIoMdICw0yWcg0O5bGXWwHKSqcyVyDnPk/BwbIl9An/oltoXX7K39AOvbnqOmnD5dANo1oloJIPyX2rnq+wSjV3QBayN0FjeKdW0FjB10AaPD05+QG0reSdB1lG6SFwGtSUuCBzRShDwBUdLYMlBXTMc3SaBeumaOY6YgNIUW3i4nQdPhhjziXYFVzrv2PlVzqUC1gNdPWnPQOfyT30pP2mmuQR5/k/rv1x+QA25eTruvPaC3YXSJQW1KuW8Qbok3ASjKViXICfx7/ArrnQL5HPh6o0FaM1gLNLA6sB0tGEFA6UDJUCmm7UhA10sG/4af6B6J/C8nPFLgF5dLGv6I9B6b8q5rjn7KcB0uv6uq8890p9+gdp1tfTeQfJuA1+Tn2l+QPOWpf4C3Tlqra4b16Bt6c1rcAOItq5+gWNUg0Gq9DS0G6NWICyr+Ri2+wXXoZo9XsCQDiUpwrmA5KvF/ANKNpjoGlXyFoDrF4mKVBusK+QOuXT49enLGutrQOto2t5J0D8vSZvB8uBdg75tdMaeebrpm8B065b6u/kGa7ATU9DyugboB5OdroEyCpS+kALF4tHVBrRrdagFjL0aCyrUywNIsy0rQB42S1GBjgECcXrdjUGTjNwE4WYjdB0bFTJgmkjVc0CzT7A8mmgLWk8+J5B0DtSjasB1yea5pnoNulhIUBdVz1o9acrQTqwJFmgdA03k535Aa1up5NKCrU4NBtD0pUBK3W6nQWLaLAVqVY2gZakKA0aQpEBOLa1g6oMnWy1App0zXF0zQKp5NaAOnmvYGVzQa1I1rYBeumdBqBKDvNJK5WrKDv0anx66tBrQ1SoagBEKT21yAIY6oIsbqdB0GwspoB4lLNbYBxuLalAqOYiwFlWxh0D/2Q==);
+	background-repeat: no-repeat;
+    background-size: 5000px;
+}
+
+.topnav {
+	overflow: hidden;
+	background-color: #333;
+	position:sticky;
+	top: 0;
+    width: 100%;
+  }
+  
+  .topnav a {
+	float: left;
+	color: #f2f2f2;
+	font-family: cursive;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+  }
+  
+  .topnav a:hover {
+	background-color: #bbb;
+	color: black;
+  }
+
+  .topnav-right {
+	float: right;
+  }
+
+  .row::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+  .img_div{
+	float: left;
+	width: 50%;
+	padding: 5px;
+  }
+  .menu_div{
+	float: right;
+	width: 50%;
+	padding: 160px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: cursive;
+  }
+  #menu_list{
+	background-color: limegreen;
+	color:black; 
+	width: 200px;
+	border: none;
+  }
+
+  .newRow::after {
+	content: "";
+	clear: both;
+	display: table;
+}
+
+  .block1{
+	float: left;
+	width: 20%;
+	padding: 5px;
+  }
+  .block2{
+	float: left;
+	width: 80%;
+	padding: 5px;
+	color: honeydew;
+	font-size: 25px;
+	font-family: cursive;
+  }
+
+  #add_toppings{
+	padding-left:30px;
+	width:180px;
+	height:180px;
+	border: none;
+	background-color: blue;
+	font-size: 25px;
+	font-family: cursive;
+	display: inline-block;
+	padding: 15px 25px;
+	font-size: 24px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	box-shadow: 0 9px #999;
+  }
+
+  #add_toppings:hover{
+	background-color: #3e8e41
+  }
+
+  #add_toppings:active{
+	background-color: #3e8e41;
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+  }
+
+  #add_item {
+	font-family: cursive;
+	font-size: 15px;
+	line-height: 20px;
+	width: 80%;
+	height: 50px;
+	color:white;
+    background: none;
+    border: none;
+    border-bottom: 1px solid rgb(223, 205, 205);
+    outline: none;
+ }
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: text-indent 0.6s 0.6s ease; 
+    text-indent: -100%;
+	opacity: 1;
+	color: white;
+ }
+
+ol.menulist>li
+{
+	padding-bottom:20px;
+}
+
+.cards {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+ }
+ 
+ div.card {
+    flex: 0 0 30%;
+	box-sizing: border-box;
+	color:black;
+	margin: 0.5rem .18em;
+	background-color: antiquewhite;
+	align-items: center;
+	font-size: medium;
+}
+.card img{
+	width:100px;
+	height: 80px;
+}
+
+/* Popup container */
+.popup {
+	position: relative;
+	display: inline-block;
+	cursor: pointer;
+  }
+  
+  /* The actual popup (appears on top) */
+  .popup .popuptext {
+	visibility: hidden;
+	width: 160px;
+	background-color: #555;
+	color: #fff;
+	text-align: center;
+	border-radius: 6px;
+	padding: 8px 0;
+	position: absolute;
+	z-index: 1;
+	bottom: 125%;
+	left: 50%;
+	margin-left: -80px;
+  }
+  
+  /* Popup arrow */
+  .popup .popuptext::after {
+	content: "";
+	position: absolute;
+	top: 100%;
+	left: 50%;
+	margin-left: -5px;
+	border-width: 5px;
+	border-style: solid;
+	border-color: #555 transparent transparent transparent;
+  }
